@@ -1,0 +1,113 @@
+body{
+    background: hsl(0, 0%, 8%);
+}
+
+.inter-font-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: hsl(0, 0%, 100%);
+}
+
+.content{
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background: hsl(0, 0%, 12%);
+}
+
+.profile-image{
+    border-radius: 50%;
+    margin: auto;
+    width: 85px;
+    margin-bottom: 25px;
+}
+
+.name{
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.place{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+.decs{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-weight: 400;
+    color: hsl(0, 0%, 89%);
+}
+
+.btn-links{
+    margin: 8px;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 9px;
+    border: 0;
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    width: 265px;
+}
+
+.btn:hover{
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+button:hover {
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+.footer{
+    color: hsl(0, 0%, 89%);
+    padding: 10px;
+    background: hsl(0, 0%, 12%);
+    font-size: 11px;
+    text-align: center;
+}
+
+.mentor{
+    color: hsl(75, 94%, 57%);
+}
+
+.my-name{
+    color: hsl(75, 94%, 57%);
+}
+
+
+/* Desktop */
+
+@media (min-width: 768px) {
+    h1{
+        font-size: 20px;
+    }
+    .place{
+        font-size: 12px;
+    }
+    .decs{
+        font-size: 12px;
+    }
+    .btn-links{
+        padding: 9px;
+        width: 264px;
+    }
+    .footer{
+        font-size: 14px;
+    }
+}
